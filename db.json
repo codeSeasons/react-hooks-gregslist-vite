@@ -48,6 +48,13 @@
       "image": "/images/treadmill.jpg",
       "location": "East Flatbush",
       "favorite": false
+    },
+    {
+      "id": "ea84",
+      "description": "item1",
+      "image": "",
+      "location": "",
+      "favorite": false
     }
   ]
 }
