@@ -1,15 +1,16 @@
 import Search from "./Search";
 
-function Header() {
+function Header({ search, onSearch }) {
   return (
     <header>
       <h1>
-        <span className="logo" role="img">
+        <span className="logo" role="img" aria-label="logo">
           ☮
         </span>
         gregslist
       </h1>
-      <Search />
+
+      <Search search={search}onSearch={onSearch} />
     </header>
   );
 }
