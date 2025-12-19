@@ -12,7 +12,7 @@
       "description": "2019 Toyota Tacoma grill",
       "image": "/images/toyota-grill.jpg",
       "location": "Williamsburg",
-      "favorite": true
+      "favorite": false
     },
     {
       "id": "3",
@@ -47,13 +47,6 @@
       "description": "Treadmill Parts For Free",
       "image": "/images/treadmill.jpg",
       "location": "East Flatbush",
-      "favorite": false
-    },
-    {
-      "id": "ea84",
-      "description": "item1",
-      "image": "",
-      "location": "",
       "favorite": false
     }
   ]
