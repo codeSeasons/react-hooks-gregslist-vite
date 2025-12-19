@@ -1,16 +1,13 @@
 import ListingCard from "./ListingCard";
 
-function ListingsContainer({ listings }) {
+function ListingsContainer({ listings, updateListing }) {
   return (
     <ul className="cards">
       {listings.map((listing) => (
         <ListingCard
           key={listing.id}
-          description={listing.description}
-          image={listing.image}
-          location={listing.location}
-          favorite={listing.favorite}
-          price={listing.price}
+          {...listing}
+          updateListing={updateListing}
         />
       ))}
     </ul>
